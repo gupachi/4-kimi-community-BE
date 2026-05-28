@@ -14,7 +14,6 @@ import java.util.List;
 public  class UserController {
     @Autowired
     UserService userService;
-
     //create 요청은 post를 날리니까  PostMapping 어노테이션을 단다.
     //UserJoinDTO 를 Request body로서 받는다.
     @PostMapping
